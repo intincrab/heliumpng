@@ -11,6 +11,9 @@ p {
   color: #ffffff; /* Set the font color to white for all paragraph tags */
 }
 
+span{
+  color: #000000;
+}
 
 body {
   margin: 0 auto;
@@ -60,7 +63,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 6rem;
+  gap: 4rem;
 }
 
 .nav-links a {
@@ -99,5 +102,20 @@ h1 {
 
   .hamburger {
     display: none;
+  }
+}
+
+/* styles for smaller screens */
+@media screen and (max-width: 635px) {
+  .nav-links {
+    display: none; /* hide the navigation links */
+  }
+
+  .hamburger {
+    display: block; /* show the hamburger menu */
+  }
+
+  header {
+    padding: 0.25rem 1rem; /* adjust padding for smaller screens */
   }
 }
