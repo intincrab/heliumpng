@@ -1,9 +1,13 @@
 html {
   background-color: #303030;
-  font-family: 'Open Sans', sans-serif;
-
+  font-family: "Open Sans", sans-serif;
 }
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #ffffff; /* Set the font color to white for all heading tags */
 }
 
@@ -11,16 +15,16 @@ p {
   color: #ffffff; /* Set the font color to white for all paragraph tags */
 }
 
-span{
+span {
   color: #000000;
 }
-ul{
+ul {
   color: aliceblue;
 }
 body {
   margin: 0 auto;
   color: #ffff;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   width: 100%;
   font-size: 16px;
   line-height: 1.5;
@@ -51,7 +55,7 @@ h1 {
   width: 40px;
   height: 5px;
   margin-bottom: 10px;
-  background-color: #A6E22E;
+  background-color: #a6e22e;
 }
 
 .nav-links {
@@ -76,8 +80,8 @@ h1 {
   padding: 0.25rem 1rem;
 }
 
-.nav-links a:hover{
-  background-color: white;
+.nav-links a:hover {
+  background: white;
   color: black;
   padding: 5px 10px;
 }
