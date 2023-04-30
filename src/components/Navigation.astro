@@ -1,7 +1,10 @@
 ---
+import ThemeIcon from "./ThemeIcon.astro";
+
 ---
 
-<div class="nav-links">
+<header>
+  <div class="nav-links">
     <p>
       <a href="/">./home</a> 
       <span>|</span>
@@ -10,6 +13,22 @@
       <a href="/blog">blog</a>
       <span>| </span>
       <a href="/tags/">tags</a>
+      <span class="icon-container">
+        <ThemeIcon />
+      </span>
     </p>
   </div>
+</header>
+
+<style>
+  .nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
   
+  .icon-container {
+    margin-left: 10px; /* adjust as needed */
+    padding-top: 10px ;
+  }
+</style>
