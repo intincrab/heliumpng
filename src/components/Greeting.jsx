@@ -14,6 +14,7 @@ export default function Greeting({ messages }) {
     padding: '10px 10px',
     textAlign: 'center',
     textDecoration: 'none',
+    // display: 'inline',
     display: 'inline-block',
     fontSize: '17px',
     margin: '10px 0',
