@@ -1,5 +1,5 @@
 html {
-  background-color: #303030;
+  background-color: #212121;
   font-family: "Open Sans", sans-serif;
 }
 h1,
@@ -13,8 +13,11 @@ h6 {
 
 p {
   color: #ffffff; /* Set the font color to white for all paragraph tags */
+  font-size: 20px;
 }
-
+li{
+  font-size: 20px;
+}
 span {
   color: #000000;
 }

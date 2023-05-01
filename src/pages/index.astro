@@ -1,11 +1,20 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import Greeting from "../components/Greeting";
-const pageTitle ="Home Page";
+const pageTitle ="heliumpng";
 ---
 
 <BaseLayout pageTitle = {pageTitle}>
-  <h2> &#x1F529; The site is currently in progress and hopefully will get done by this week :) &#x1F477;  &#x1F528;</h2>
+  <p>Hello web surfer welcome to my website! I like learning about computers and other topics related to software. You can read my articles and information about myself in the header.</p>
+  <h2>Socials and Contributions</h2>
+  <p>You can <s>stalk</s> find me on the following platforms:</p>
+  <ul>
+    <li>
+      Github: <a href="https://github.com/intincrab">intincrab</a>
+    </li>
+    <li>Gitlab: <a href="https://gitlab.com/intincrab1">intincrab1</a></li>
+    <li>Twitter: <a href="https://twitter.com/intincrab1">intincrab1</a></li>
+  </ul>
   <Greeting client:load messages={[
     "नमस्ते",
     "Hallo",
@@ -25,4 +34,10 @@ const pageTitle ="Home Page";
     "سَلام",
     "dzień dobry",
   ]} />
+  <style>
+     a:visited {
+      color: pink;
+    }
+    
+  </style>
 </BaseLayout>
