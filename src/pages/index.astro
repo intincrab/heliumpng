@@ -1,11 +1,15 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import Greeting from "../components/Greeting";
-const pageTitle ="heliumpng";
+const pageTitle = "heliumpng";
 ---
 
-<BaseLayout pageTitle = {pageTitle}>
-  <p>Hello web surfer welcome to my website! I like learning about computers and other topics related to software. You can read my articles and information about myself in the header.</p>
+<BaseLayout pageTitle={pageTitle}>
+  <p>
+    Hello web surfer welcome to my website! I like learning about computers and
+    other topics related to software. You can read my articles and information
+    about myself in the header.
+  </p>
   <h2>Socials and Contributions</h2>
   <p>You can <s>stalk</s> find me on the following platforms:</p>
   <ul>
@@ -15,29 +19,40 @@ const pageTitle ="heliumpng";
     <li>Gitlab: <a href="https://gitlab.com/intincrab1">intincrab1</a></li>
     <li>Twitter: <a href="https://twitter.com/intincrab1">intincrab1</a></li>
   </ul>
-  <Greeting client:load messages={[
-    "नमस्ते",
-    "Hallo",
-    "Hola",
-    "Habari",
-    "guten Tag",
-    "salve",
-    "您好",
-    "السلام عليكم",
-    "こんにちは",
-    "안녕하세요",
-    "olá",
-    "namaste",
-    "здравствуйте",
-    "merhaba",
-    "xin chào",
-    "سَلام",
-    "dzień dobry",
-  ]} />
+  <Greeting
+    client:load
+    messages={[
+      "नमस्ते",
+      "Hallo",
+      "Hola",
+      "Habari",
+      "guten Tag",
+      "salve",
+      "您好",
+      "السلام عليكم",
+      "こんにちは",
+      "안녕하세요",
+      "olá",
+      "namaste",
+      "здравствуйте",
+      "merhaba",
+      "xin chào",
+      "سَلام",
+      "dzień dobry",
+    ]}
+  />
   <style>
-     a:visited {
-      color: pink;
+    a:visited {
+      color:pink;
     }
-    
+    a {
+      color: pink;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: rgb(255, 151, 168);
+      text-decoration: underline;
+    }
   </style>
 </BaseLayout>

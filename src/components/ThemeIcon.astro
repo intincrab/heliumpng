@@ -35,12 +35,6 @@
   :global(.dark) .moon {
     fill: rgb(0, 0, 0);
   }
-  .selector {
-    property: value;
-    is: inline;
-    another-property: another-value;
-  }
-
 </style>
 
 <script is:inline>
@@ -48,7 +42,7 @@
     if (typeof localStorage !== "undefined" && localStorage.getItem("theme")) {
       return localStorage.getItem("theme");
     }
-    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+    if (window.matchMedia("(prefers-color-scheme: light)").matches) {
       return "dark";
     }
     return "light";
