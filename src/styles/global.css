@@ -1,5 +1,5 @@
 html {
-  background-color: #212121;
+  background-color: #282c35;
   font-family: "Open Sans", sans-serif;
 }
 h1,
@@ -10,12 +10,24 @@ h5,
 h6 {
   color: #ffffff; /* Set the font color to white for all heading tags */
 }
+a:visited {
+  color:pink;
+}
+a {
+  color: pink;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(255, 151, 168);
+  text-decoration: underline;
+}
 
 p {
   color: #ffffff; /* Set the font color to white for all paragraph tags */
   font-size: 20px;
 }
-li{
+li {
   font-size: 20px;
 }
 span {
@@ -35,15 +47,16 @@ body {
   max-width: 80ch;
   padding: 0;
   line-height: 1.5;
+  margin-bottom: 50px; 
 }
 header {
-  background-color: #a6e22e;
+  background-color: #ffa7c4;
   color: black;
   text-align: center;
 }
-* {
+/* * {
   box-sizing: border-box;
-}
+} */
 
 h1 {
   margin: 1rem 0;
@@ -52,6 +65,11 @@ h1 {
 html.dark {
   background-color: #0d0950;
   color: #ffffff;
+}
+
+::selection {
+  background-color: #ffa7c4;
+  color: rgb(0, 0, 0);
 }
 
 .dark .nav-links a {
@@ -69,7 +87,7 @@ html.dark {
   width: 40px;
   height: 5px;
   margin-bottom: 10px;
-  background-color: #a6e22e;
+  background-color: #ffa7c4;
 }
 
 .nav-links {
@@ -84,6 +102,7 @@ html.dark {
   justify-content: center;
   align-items: center;
   gap: 2rem;
+  //This will make the nav links with gaap
 } */
 
 .nav-links a {

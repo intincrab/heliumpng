@@ -18,33 +18,34 @@ const pageTitle = "Tag Index";
 </BaseLayout>
 
 <style>
-  a {
-    color: #3d3939;
+  .tag a {
+    color: #000000;
     text-decoration: none;
+    font-family: monospace;
   }
 
   .tags {
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
+    margin-bottom: 50px;
   }
 
   .tag {
-    margin: 0.25em;
-    border-radius: 0.8em;
+    margin: 0.15em;
     padding: 0.5em 1em;
     font-size: 1.15em;
     display: inline-block;
     padding: 0.5rem;
-    background: #a6e22e;
-    color: rgb(129, 129, 129);
+    color: rgb(0, 0, 0);
     transition: all 0.3s ease-in-out;
-    background-color: #d5f497;
+    background-color: #ffa7c4;
   }
 
   .tag:hover {
     background: #ffffff;
-    text-color: #000000;
+    color: #000000;
     box-shadow: 0 0 8px #000000;
+    text-decoration: none;
   }
 </style>

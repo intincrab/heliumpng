@@ -26,6 +26,7 @@ const { frontmatter } = Astro.props;
   a {
     color: #3d3939;
     text-decoration: none;
+    font-family: monospace;
   }
 
   .tags {
@@ -35,21 +36,40 @@ const { frontmatter } = Astro.props;
   }
 
   .tag {
-    margin: 0.25em;
-    border-radius: 0.8em;
-    padding: 0.5em 1em;
-    font-size: 1.15em;
+    margin: 0.15em;
+    /* border-radius: 0.8em; */
+    padding: 0.1em 0em;
+    font-size: 1.03em;
     display: inline-block;
     padding: 0.5rem;
-    background: #a6e22e;
-    color: rgb(129, 129, 129);
+    color: rgb(0, 0, 0);
     transition: all 0.3s ease-in-out;
-    background-color: #d5f497;
+    background-color: #ffa7c4;
+    position: relative;
   }
 
-  .tag:hover {
-    background: #ffffff;
-    text-color: #000000;
-    box-shadow: 0 0 8px #000000;
-  }
+  .tag::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.8) 50%, rgba(255,255,255,0) 100%);
+  opacity: 0;
+  transition: opacity 0.2s linear;
+}
+
+.tag:hover::before {
+  opacity: 0.5;
+}
+
+.tag:hover {
+  background: #ffffff;
+  color: #000000;
+  box-shadow: 0 0 8px #000000;
+}
+.tag a{
+  color: #000000;
+}
 </style>
