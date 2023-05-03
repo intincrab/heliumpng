@@ -4,7 +4,8 @@ import Greeting from "../components/Greeting";
 const pageTitle = "heliumpng";
 ---
 
-<BaseLayout pageTitle={pageTitle}>
+<BaseLayout>
+  <h1>heliumpng <span class="cursor"></span></h1>
   <p>
     Hello web surfer welcome to my website! I like learning about computers and
     other topics related to software. You can read my articles and information
@@ -41,18 +42,30 @@ const pageTitle = "heliumpng";
       "dzień dobry",
     ]}
   />
-  <!-- <style>
-    a:visited {
-      color:pink;
-    }
-    a {
-      color: pink;
-      text-decoration: none;
-    }
-
-    a:hover {
-      color: rgb(255, 151, 168);
-      text-decoration: underline;
-    }
-  </style> -->
 </BaseLayout>
+<style>
+.cursor {
+  display: inline-block;
+  width: 13px;
+  height: 23px;
+  margin-left: 0px;
+  /* set the border style, width, and color of the cursor */
+background-color: whitesmoke;  /* set the animation properties for the cursor */
+  animation: blink 1.3s infinite;
+}
+
+/* define the blink animation */
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
+</style>

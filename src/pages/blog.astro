@@ -1,13 +1,105 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import BlogPost from '../components/BlogPost.astro';
-const allPosts = await Astro.glob('../pages/posts/*.md');
-const pageTitle = "My Astro Learning Blog";
+import BlogPost from "../components/BlogPost.astro";
+const allPosts = await Astro.glob("../pages/posts/*.md");
+const pageTitle = "Blog";
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-  <p>This is where I will post about my journey learning Astro.</p>
-  <ul>
-    {allPosts.map((post) => <BlogPost url={post.url} title={post.frontmatter.title} />)}
-  </ul>
+  <p>
+    This is where I will post about my learning of "automated computational
+    engine" (computer) and some personal blog related to [ ].
+  </p>
+  <section>
+    {
+      allPosts.map((post) => (
+        <article class="blog-post d-1">
+          <h2><a href={post.url}>{post.frontmatter.title}</a></h2>
+          <p class="post-date">{post.frontmatter.date}</p>
+          <p class="post-excerpt">{post.frontmatter.excerpt}</p>
+        </article>
+      ))
+    }
+  </section>
 </BaseLayout>
+
+
+<style>
+  .blog-post {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 0.6rem;
+  padding: 0.2rem;
+  border-radius: 15px ;
+  background-color: #ffa7c4 !important;
+
+}
+.blog-post h2 {
+  margin-top: 0;
+  font-size: 1.4rem;
+  line-height: 1;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.blog-post a {
+  color: #282c35;
+  text-decoration: none;
+ padding: 1rem;
+}
+/* a::visited{
+color: black;
+} */
+
+.d-1 {
+  --c: pink; /* the color */
+  --b: .1em;    /* border length*/
+  --d: 20px;    /* the cube depth */
+  
+  --_s: calc(var(--d) + var(--b));
+  
+  color: var(--c);
+  border: solid #00000000;
+  border-width: var(--b) var(--b) var(--_s) var(--_s);
+  background:
+    conic-gradient(at left var(--d)  bottom var(--d),
+      #0000 90deg, rgb(255 255 255 /0.3) 0 225deg,rgb(255 255 255 /0.6) 0) border-box,
+    conic-gradient(at left var(--_s) bottom var(--_s),
+      #0000 90deg,var(--c) 0) 0 100%/calc(100% - var(--b)) calc(100% - var(--b))  border-box;
+  transform: translate(calc(var(--d)/-1),var(--d));
+  clip-path: 
+    polygon(
+     var(--d) 0%, 
+     var(--d) 0%, 
+     100% 0%, 
+     100% calc(100% - var(--d)),
+     100% calc(100% - var(--d)),
+     var(--d) calc(100% - var(--d))
+    );
+  transition: 0.5s;
+}
+
+.d-1:hover {
+  transform: translate(0,0);
+  clip-path: 
+    polygon(
+     0% var(--d), 
+     var(--d) 0%, 
+     100% 0%, 
+     100% calc(100% - var(--d)), 
+     calc(100% - var(--d)) 100%, 
+     0% 100%
+   );
+  z-index: 2;
+}
+
+/* .post-date {
+  font-size: 0.8rem;
+  color: #999;
+  margin-top: 0.5rem;
+}
+
+.post-excerpt {
+  margin-top: 1rem;
+  line-height: 1.4;
+} */
+
+</style>

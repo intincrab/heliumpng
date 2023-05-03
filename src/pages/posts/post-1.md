@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 'How I created this site'
+title: 'How I created this website'
 pubDate: 2022-07-01
 description: 'This is the first post of my new Astro blog.'
 author: 'heliumpng'
@@ -12,7 +12,7 @@ tags: ["astro", "blogging", "learning in public"]
 
 Welcome to my _new blog_ about learning Astro! Here, I will share my learning journey as I build a new website.
 
-## What I've accomplished
+## Why I created this site
 
 1. **Installing Astro**: First, I created a new Astro project and set up my online accounts.
 
