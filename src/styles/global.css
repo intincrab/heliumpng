@@ -8,10 +8,10 @@ h3,
 h4,
 h5,
 h6 {
-  color: #ffffff; /* Set the font color to white for all heading tags */
+  color: #ffffff; 
 }
 a:visited {
-  color:pink;
+  color: pink;
 }
 a {
   color: pink;
@@ -24,7 +24,7 @@ a:hover {
 }
 
 p {
-  color: #ffffff; /* Set the font color to white for all paragraph tags */
+  color: #ffffff; 
   font-size: 20px;
 }
 li {
@@ -47,16 +47,13 @@ body {
   max-width: 80ch;
   padding: 0;
   line-height: 1.5;
-  margin-bottom: 50px; 
+  margin-bottom: 50px;
 }
 header {
   background-color: #ffa7c4;
   color: black;
   text-align: center;
 }
-/* * {
-  box-sizing: border-box;
-} */
 
 h1 {
   margin: 1rem 0;
@@ -75,48 +72,32 @@ html.dark {
 .dark .nav-links a {
   color: #000000;
 }
-/* nav styles */
-
-.hamburger {
-  padding-right: 20px;
-  cursor: pointer;
-}
-
-.hamburger .line {
-  display: block;
-  width: 40px;
-  height: 5px;
-  margin-bottom: 10px;
-  background-color: #ffa7c4;
-}
 
 .nav-links {
   display: flex;
   justify-content: center;
   align-items: center;
   padding-right: 80px;
+  margin-top: 20px;
 }
-/* 
-.nav-links p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
-  //This will make the nav links with gaap
-} */
 
 .nav-links a {
-  color: black;
   text-decoration: none;
   font-size: 1.3rem;
   font-family: monospace;
-  /* padding: 0.25rem 1rem; */
+  padding: 0.5rem 1rem; /* add some padding around the links */
+  display: block; /* change the links to display in a block */
+  border-radius: 5px;
+  transition: all 0.3s ease-in;
+  background: #ffa7c4;
+  color: black;
+  margin: 0.1rem;
+  text-align: center;
 }
 
 .nav-links a:hover {
   background: white;
   color: black;
-  /* padding: 5px 10px; */
 }
 
 .expanded {
@@ -139,20 +120,5 @@ html.dark {
 
   .hamburger {
     display: none;
-  }
-}
-
-/* styles for smaller screens */
-@media screen and (max-width: 635px) {
-  .nav-links {
-    display: none; /* hide the navigation links */
-  }
-
-  .hamburger {
-    display: block; /* show the hamburger menu */
-  }
-
-  header {
-    padding: 0.25rem 1rem; /* adjust padding for smaller screens */
   }
 }

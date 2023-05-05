@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Breaking Down the Process: How I Built This Website'
 pubDate: 2022-07-01
-description: 'Discover the magic behind the creation of this website 🧙‍♂️, and learn how I used AI 🤖 to bring it to life.'
+description: 'How I created this website 🧙‍♂️, and how I used AI 🤖 to bring it to life.'
 author: 'heliumpng'
 image:
     url: 'https://i.pinimg.com/564x/39/de/d6/39ded62830658e5f36c24024fcc18eea.jpg' 
