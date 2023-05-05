@@ -1,25 +1,23 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 'How I created this website'
+title: 'Breaking Down the Process: How I Built This Website'
 pubDate: 2022-07-01
-description: 'This is the first post of my new Astro blog.'
+description: 'Discover the magic behind the creation of this website 🧙‍♂️, and learn how I used AI 🤖 to bring it to life.'
 author: 'heliumpng'
 image:
-    url: 'https://docs.astro.build/assets/full-logo-light.png' 
+    url: 'https://i.pinimg.com/564x/39/de/d6/39ded62830658e5f36c24024fcc18eea.jpg' 
     alt: 'The Astro logo with the word One.'
 tags: ["astro", "blogging", "learning in public"]
 ---
-
-Welcome to my _new blog_ about learning Astro! Here, I will share my learning journey as I build a new website.
+____________________________________________________________________________________________
+In this debut blog post, I'll be sharing the story behind the creation of this website, including the inspiration that led me to build it and the innovative use of AI that made it a reality.
 
 ## Why I created this site
 
-1. **Installing Astro**: First, I created a new Astro project and set up my online accounts.
+- **Fun and Learning**: I wanted to expand my knowledge by delving into new technologies such as Astro, and also to refresh my skills in HTML and CSS. It was an enjoyable way to challenge myself while also learning something new.
 
-2. **Making Pages**: I then learned how to make pages by creating new `.astro` files and placing them in the `src/pages/` folder.
+- **Learning in Public**: One of my goals for this website is to share my current learning journey with the public. By writing blog posts about my experiences, I hope to inspire others to learn alongside me and benefit from the knowledge that I gain.
 
-3. **Making Blog Posts**: This is my first blog post! I now have Astro pages and Markdown posts!
+## faghasjsahdkashdkasj
 
-## What's next
-
-I will finish the Astro tutorial, and then keep adding more posts. Watch this space for more to come.
+working..................
