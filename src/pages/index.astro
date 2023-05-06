@@ -44,28 +44,24 @@ const pageTitle = "heliumpng";
   />
 </BaseLayout>
 <style>
-.cursor {
-  display: inline-block;
-  width: 13px;
-  height: 23px;
-  margin-left: 0px;
-  /* set the border style, width, and color of the cursor */
-background-color: whitesmoke;  /* set the animation properties for the cursor */
-  animation: blink 1.3s infinite;
-}
-
-/* define the blink animation */
-@keyframes blink {
-  0% {
-    opacity: 0;
+  .cursor {
+    display: inline-block;
+    width: 13px;
+    height: 25px;
+    margin-left: 0px;
+    background-color: whitesmoke;
+    animation: blink 1.3s infinite;
   }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
 
-
+  @keyframes blink {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
 </style>

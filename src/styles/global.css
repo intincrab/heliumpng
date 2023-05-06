@@ -8,7 +8,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #ffffff; 
+  color: #ffffff;
 }
 a:visited {
   color: pink;
@@ -24,7 +24,7 @@ a:hover {
 }
 
 p {
-  color: #ffffff; 
+  color: #ffffff;
   font-size: 20px;
 }
 li {
@@ -121,4 +121,32 @@ html.dark {
   .hamburger {
     display: none;
   }
+}
+.hamburger {
+  padding-right: 20px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.hamburger .line {
+  display: block;
+  width: 40px;
+  height: 5px;
+  margin-bottom: 8px;
+  background-color: #282c35;
+}
+@media screen and (max-width: 635px) {
+  .nav-links {
+    display: none;
+    margin-left: 80px;
+  }
+  .hamburger {
+    display: block;
+  }
+  body {
+    padding: 15px;
+  }
+}
+.nav-links.expanded {
+  display: block;
 }
