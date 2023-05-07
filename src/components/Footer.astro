@@ -1,8 +1,56 @@
 ---
 import Social from "./Social.astro";
 ---
+
 <footer>
   <Social platform="github" username="intincrab" />
   <Social platform="gitlab" username="intincrab1" />
   <Social platform="twitter" username="intincrab1" />
+  <div>
+    <p>© 2023 Ajay Chauhan / heliumpng / intincrab1</p>
+    <p>
+      🄯 Website <a
+        href="https://github.com/intincrab/astrooo"
+        target="_blank"
+        rel="noopener noreferrer">code</a
+      > under <a
+        href="https://www.apache.org/licenses/LICENSE-2.0"
+        target="_blank"
+        rel="noopener noreferrer">Apache License 2.0</a
+      >
+    </p>
+    <p>
+      Website powered by <a
+        href="https://astro.build"
+        target="_blank"
+        rel="noopener noreferrer">Astro</a
+      > · Hosted on <a
+        href="https://vercel.com"
+        target="_blank"
+        rel="noopener noreferrer">Vercel</a
+      >
+    </p>
+  </div>
 </footer>
+<style>
+  #footer {
+    overflow: hidden;
+    border-radius: 10px;
+    margin-top: auto;
+    margin-bottom: 0;
+  }
+  footer p {
+    text-align: center;
+    font-size: 0.9rem;
+    margin: 9px;
+    color: rgba(245, 245, 245, 0.756);
+  }
+  #footer p a {
+    color: var(--hyperlink-color);
+  }
+  div {
+    background-color: rgba(0, 0, 0, 0.082);
+    border-radius: 15px;
+    padding-bottom: 1px;
+  }
+</style>
