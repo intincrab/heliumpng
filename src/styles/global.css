@@ -1,6 +1,7 @@
 html {
   background-color: #282c35;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Lato", sans-serif;
+  scrollbar-color: pink #282c35;
 }
 h1,
 h2,
@@ -39,16 +40,17 @@ ul {
 body {
   margin: 0 auto;
   color: #ffff;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Lato", sans-serif;
   width: 100%;
   font-size: 16px;
   line-height: 1.5;
   color: #333;
-  max-width: 80ch;
+  max-width: 76.7ch;
   padding: 0;
   line-height: 1.5;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
+
 header {
   background-color: #ffa7c4;
   color: black;
@@ -63,7 +65,6 @@ html.dark {
   background-color: #0d0950;
   color: #ffffff;
 }
-
 ::selection {
   background-color: #ffa7c4;
   color: rgb(0, 0, 0);
@@ -85,8 +86,8 @@ html.dark {
   text-decoration: none;
   font-size: 1.3rem;
   font-family: monospace;
-  padding: 0.5rem 1rem; /* add some padding around the links */
-  display: block; /* change the links to display in a block */
+  padding: 0.5rem 1rem;
+  display: block;
   border-radius: 5px;
   transition: all 0.3s ease-in;
   background: #ffa7c4;
@@ -131,7 +132,7 @@ html.dark {
 .hamburger .line {
   display: block;
   width: 40px;
-  height: 5px;
+  height: 6px;
   margin-bottom: 8px;
   background-color: #282c35;
 }
@@ -145,6 +146,7 @@ html.dark {
   }
   body {
     padding: 15px;
+    padding-bottom: 2px;
   }
 }
 .nav-links.expanded {
