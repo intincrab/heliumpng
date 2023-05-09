@@ -3,12 +3,6 @@ html {
   font-family: "Lato", sans-serif;
   scrollbar-color: pink #282c35;
 }
-
-@font-face {
-  font-family: 'Lato';
-  src: url('public/S6uyw4BMUTPHjx4wXg.woff2') format('woff2');
-}
-
 h1,
 h2,
 h3,
@@ -54,7 +48,7 @@ body {
   max-width: 76.7ch;
   padding: 0;
   line-height: 1.5;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 header {
