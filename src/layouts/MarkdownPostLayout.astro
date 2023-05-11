@@ -9,9 +9,7 @@ const { frontmatter } = Astro.props;
   </svg>
   {frontmatter.pubDate.slice(0, 10)}</p>
   <p><em>{frontmatter.description}</em></p>
-
-  <!-- <p>Written by {frontmatter.author}</p> -->
-
+  <p>Written by {frontmatter.author}</p>
   <img src={frontmatter.image.url} width="300" alt={frontmatter.image.alt} />
   <div class="tags">
     {
@@ -22,7 +20,6 @@ const { frontmatter } = Astro.props;
       ))
     }
   </div>
-
   <slot />
 </BasicLayout>
 <style>
