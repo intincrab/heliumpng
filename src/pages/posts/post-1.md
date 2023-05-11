@@ -6,7 +6,7 @@ description: 'How I created this website 🧙‍♂️, and how I used AI 🤖 t
 author: 'heliumpng'
 image:
     url: 'https://i.pinimg.com/564x/39/de/d6/39ded62830658e5f36c24024fcc18eea.jpg' 
-    alt: 'The Astro logo with the word One.'
+    alt: 'Still from Neon Genesis Evangelion'
 tags: ["astro", "blogging", "learning in public"]
 ---
 ____________________________________________________________________________________________
