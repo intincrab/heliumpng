@@ -57,18 +57,14 @@ body {
   font-style: normal;
 }
 
-
 h1 {
   margin: 1rem 0;
   font-size: 2.5rem;
 }
-html.dark {
-  background-color: #0d0950;
-  color: #ffffff;
-}
+
 ::selection {
-  background-color: #ffa7c4;
-  color: rgb(0, 0, 0);
+  background-color: #1d212a;
+  color: rgb(255, 255, 255);
 }
 
 header {
