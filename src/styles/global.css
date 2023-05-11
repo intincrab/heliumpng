@@ -1,6 +1,6 @@
+/* General Looks */
 html {
   background-color: #282c35;
-  /* font-family: "latoregular", sans-serif; */
   scrollbar-color: pink #282c35;
 }
 h1,
@@ -10,18 +10,6 @@ h4,
 h5,
 h6 {
   color: #ffffff;
-}
-a:visited {
-  color: pink;
-}
-a {
-  color: pink;
-  text-decoration: none;
-}
-
-a:hover {
-  color: rgb(255, 151, 168);
-  text-decoration: underline;
 }
 
 p {
@@ -37,10 +25,11 @@ span {
 ul {
   color: aliceblue;
 }
+/* Body */
 body {
   margin: 0 auto;
   color: #ffff;
-  font-family:  "latoregular", sans-serif;
+  font-family: "latoregular", sans-serif;
   width: 100%;
   font-size: 16px;
   line-height: 1.5;
@@ -51,8 +40,8 @@ body {
   margin-bottom: 10px;
 }
 @font-face {
-  font-family: 'latoregular';
-  src: url('/public/lato.woff2') format('woff2');
+  font-family: "latoregular";
+  src: url("/public/lato.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
@@ -61,12 +50,24 @@ h1 {
   margin: 1rem 0;
   font-size: 2.5rem;
 }
+/* links */
+a:visited {
+  color: pink;
+}
+a {
+  color: pink;
+  text-decoration: none;
+}
 
+a:hover {
+  color: #FDE2F3;
+  text-decoration: underline;
+}
 ::selection {
   background-color: #1d212a;
   color: rgb(255, 255, 255);
 }
-
+/* Header */
 header {
   background-color: #ffa7c4;
   color: black;
@@ -95,7 +96,7 @@ header {
 }
 
 .nav-links a:hover,
-.nav-links a.active{
+.nav-links a.active {
   background: white;
   color: black;
 }
@@ -103,7 +104,7 @@ header {
 .expanded {
   display: unset;
 }
-
+/* mobile */
 @media screen and (min-width: 636px) {
   .nav-links {
     margin-left: 5em;
