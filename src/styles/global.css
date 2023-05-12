@@ -59,7 +59,7 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+a:hover:not(.blog-post){
   color: #FDE2F3;
   text-decoration: underline;
 }
