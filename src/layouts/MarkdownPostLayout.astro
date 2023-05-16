@@ -37,16 +37,9 @@ const { frontmatter } = Astro.props;
   <slot />
 </BasicLayout>
 <style>
-  a {
-    color: #000000;
-    text-decoration: none;
-    font-family: monospace;
-  }
-
+ 
   .tags {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 auto;
+    margin: 0.5em 0;
   }
 
   .tag {
@@ -57,39 +50,16 @@ const { frontmatter } = Astro.props;
     display: inline-block;
     padding: 0.5rem;
     color: rgb(0, 0, 0);
-    transition: all 0.3s ease-in-out;
-    background-color: #ffa7c4;
+    background-color: #94b3c1;
     position: relative;
-  }
-
-  .tag::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(
-      90deg,
-      rgba(255, 255, 255, 0) 0%,
-      rgba(255, 255, 255, 0.8) 50%,
-      rgba(255, 255, 255, 0) 100%
-    );
-    opacity: 0;
-    transition: opacity 0.2s linear;
-    background-color: #ffa7c4;
-  }
-
-  .tag:hover::before {
-    opacity: 0.5;
-  }
-
-  .tag:hover {
-    background: #ffffff;
-    color: #000000;
-    box-shadow: 0 0 8px #000000;
   }
   .tag a {
     color: #000000;
+    text-decoration: none !important;
   }
+  a:hover {
+  text-decoration: none; 
+  color: #000000 !important;
+  }
+
 </style>
