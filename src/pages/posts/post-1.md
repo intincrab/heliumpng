@@ -18,7 +18,7 @@ In this debut blog post, I'll be sharing the story behind the creation of this w
 
 - **Learning in Public**: One of my goals for this website is to share my current learning journey with the public. By writing blog posts about my experiences, I hope to inspire others to learn alongside me and benefit from the knowledge that I gain.
 
-## How
+## How I built this site
 I used [Astro](https://astro.build/) to build this website. Astro is a new static site generator that allows you to build websites using JavaScript and Markdown. It's a great tool for building static websites because it's fast, easy to use, and has a lot of features that make it stand out from other static site generators.  
 I first got to know about Astro from [this](https://youtu.be/gxBkghlglTg) video by [Fireship](https://www.youtube.com/@Fireship). I was inspired by the video and decided to try it out for myself.
 
@@ -27,8 +27,7 @@ I used astro [blog tutorial](https://docs.astro.build/en/tutorial/0-introduction
 I got the domain name for $0 for my website from [.TECH Domain](https://get.tech/) which I got from [GitHub Student Developer Pack](https://education.github.com/pack).
 I also got to learn more about DNS records and how to use them to point my domain name to my website.
 
-## AI Part
-
+### <u>AI in Action</u>
 Whenever I get stuck with CSS. I used ChatGPT for the help it is like my personal tutor who is always there for me whenever I need some help 
 
 I creatd the favicon for the site in [DALL-E](https://labs.openai.com) where I promoted and got [this](public/favicon.ico) beautiful favicon for my site. If you can't see that is me with my coffee cup in front of my laptop with my cat on my lap.
