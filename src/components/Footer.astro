@@ -1,7 +1,7 @@
 ---
 import Social from "./Social.astro";
 ---
-
+<a rel="me" class="hidden-link" href="https://mastodon.social/@heliumpng">Mastodon</a>
 <hr class="border-(t-2 t-neutral-800) mt-24" />
 
 <footer class="p-4 text-(neutral-400 center)" >
@@ -93,5 +93,8 @@ import Social from "./Social.astro";
     line-height: 1.25rem;
     text-align: center;
     color:  rgb(163 163 163);
+  }
+  .hidden-link{
+    display: none;
   }
 </style>
