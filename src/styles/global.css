@@ -52,16 +52,17 @@ h1 {
 }
 /* links */
 a:visited {
-  color: #94a8b3     ;
+  color: #94a8b3;
 }
 a {
   color: #94a8b3;
   text-decoration: none;
 }
 
-a:hover:not(.blog-post){
-  color: #9fa2a3;
-  text-decoration: underline;
+a:hover:not(.blog-post ){
+  color: #000000;
+  background-color: #94a8b3;
+  /* text-decoration: underline; */
 }
 ::selection {
   background-color: #1d212a;
