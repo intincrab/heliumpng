@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Breaking Down the Process: How I Built This Website'
-pubDate: 2022-07-01
+pubDate: 2023-05-15
 description: 'How I created this website 🧙‍♂️, and how I used AI 🤖 to bring it to life.'
 author: 'heliumpng'
 image:

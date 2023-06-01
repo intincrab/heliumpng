@@ -59,10 +59,9 @@ a {
   text-decoration: none;
 }
 
-a:hover:not(.blog-post ){
-  color: #000000;
-  background-color: #94a8b3;
-  /* text-decoration: underline; */
+a:hover:not(.blog-post){
+  color: #7e8e96;
+  text-decoration: underline;
 }
 ::selection {
   background-color: #1d212a;
