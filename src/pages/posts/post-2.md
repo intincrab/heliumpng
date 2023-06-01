@@ -1,10 +1,10 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Chrome-Off: Why you should not use Chrome'
-author: ['heliumpng']
-description: "Safeguard Your Privacy and Embrace a Free Web!"
+author: 'heliumpng'
+description: 'Safeguard Your Privacy and Embrace a Free Web!'
 image: 
-    url: ["https://techcult.com/wp-content/uploads/2021/03/Fix-Chrome-not-Connecting-to-the-Internet.png"]
+    url: 'https://techcult.com/wp-content/uploads/2021/03/Fix-Chrome-not-Connecting-to-the-Internet.png'
     alt: "Thumbnails of websites from the Astro Showcase site."
 pubDate: 2023-06-01
 tags: []
