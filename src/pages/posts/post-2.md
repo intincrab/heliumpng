@@ -22,18 +22,18 @@ This shift towards a homogenized web experience can be observed in the transform
 Contrastingly, Mozilla, the non-profit organization behind the Firefox browser, has remained committed to supporting a free and open web. Their message resounds with the values of preserving the diversity and individuality that the internet was built upon.
 
 ## Recommended Browsers
+- [Brave](https://brave.com/) - Brave browser is based on Chromium. A privacy-focused browser that blocks ads and trackers by default. It also has a built-in cryptocurrency wallet and rewards system. 
 - [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/) - The classic open-source browser. Supports modern features fully, most chrome extensions also have a Firefox version.
-- [Brave](https://brave.com/) - Brave browser is based on Chromium. A privacy-focused browser that blocks ads and trackers by default. It also has a built-in cryptocurrency wallet and rewards system.
 - [Vivaldi](https://vivaldi.com/) - A highly customizable browser with a focus on privacy. It has a built-in ad blocker and tracker blocker, and also has a built-in screenshot tool.
 
 <!-- ![meme!](https://c4.wallpaperflare.com/wallpaper/757/525/281/black-background-humor-mozilla-firefox-rick-sanchez-wallpaper-preview.jpg) -->
 <div style="text-align: center;">
-<img src="https://c4.wallpaperflare.com/wallpaper/757/525/281/black-background-humor-mozilla-firefox-rick-sanchez-wallpaper-preview.jpg" alt="meme" style="width: 500px; border-radius: 10px; ">
+<img src="https://c4.wallpaperflare.com/wallpaper/757/525/281/black-background-humor-mozilla-firefox-rick-sanchez-wallpaper-preview.jpg" alt="meme" style="width: 350px; border-radius: 10px; ">
 </div>
 
 <style>
 img {
-  width: 400px; /* Adjust the width to your desired value */
-  border-radius: 10px; /* Add border-radius or other styling properties */
+  width: 400px;
+  border-radius: 10px; 
 }
 </style>
