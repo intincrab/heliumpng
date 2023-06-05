@@ -1,7 +1,7 @@
 /* General Looks */
 html {
-  background-color: #282c35;
-  scrollbar-color: #5e7783 #282c35;
+  background-color: #333333;
+  scrollbar-color: #FF638A #5bfbd0;
 }
 h1,
 h2,
@@ -52,25 +52,25 @@ h1 {
 }
 /* links */
 a:visited {
-  color: #94a8b3;
+  color: #5bfbd0;
 }
 a {
-  color: #94a8b3;
+  color: #5bfbd0;
   text-decoration: none;
 }
 
 a:hover:not(.blog-post){
-  color: #7e8e96;
+  color: #FF638A;
   text-decoration: underline;
 }
 ::selection {
-  background-color: #1d212a;
-  color: rgb(255, 255, 255);
+  background-color: #5bfbd0;
+  color: rgb(0, 0, 0);
 }
 /* Header */
 header {
-  background-color: #5e7783    ;
-  color: black;
+  background-color: #FF638A    ;
+  color: rgb(0, 0, 0);
   text-align: center;
 }
 .nav-links {
@@ -89,7 +89,7 @@ header {
   display: block;
   border-radius: 5px;
   transition: all 0.2s ease-out;
-  background: #5e7783    ;
+  background: #FF638A    ;
   color: white;
   margin: 0.1rem;
   text-align: center;
