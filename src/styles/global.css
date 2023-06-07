@@ -135,7 +135,7 @@ header {
   width: 40px;
   height: 6px;
   margin-bottom: 8px;
-  background-color: #282c35;
+  background-color: #333333;
 }
 @media screen and (max-width: 635px) {
   .nav-links {
