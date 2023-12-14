@@ -1,6 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: "Breaking Down the Process: How I Built This Website" # Change this to match the new slug
+title: "Breaking Down the Process: How I Built This Website"
+author: "heliumpng"
 pubDate: 2023-05-15
 description: "How I created this website 🧙‍♂️, and how I used AI 🤖 to bring it to life."
 image:
